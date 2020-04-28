@@ -1,7 +1,10 @@
 import React from 'react';
 
-const WeatherTemperature = () => (
-    <p>25 ºC</p>
-);
+const WeatherTemperature = props => {
+    const { temperature } = props;
+    return (
+        <p>{`${temperature} ºC`}</p>
+    )
+};
 
 export default WeatherTemperature;

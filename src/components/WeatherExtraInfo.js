@@ -1,7 +1,10 @@
 import React from 'react';
 
-const WeatherExtraInfo = () => (
-    <p>WeatherExtraInfo</p>
-);
+const WeatherExtraInfo = props => {
+    const { info } = props;
+    return (
+        <p>{info}</p>
+    )
+};
 
 export default WeatherExtraInfo;
