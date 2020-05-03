@@ -8,7 +8,10 @@ const WeatherData = () => (
             temperature={22}
             weatherState={'cloud'}
         />
-        <WeatherExtraInfo info={'extra info'}/>
+        <WeatherExtraInfo 
+            humidity={23}
+            wind={'10 m/s'}
+        />
     </div>
 );
 
