@@ -1,0 +1,8 @@
+.extraInfo {
+    text-align: center;
+    font-size: 16px;
+}
+
+.extraInfo::first-letter {
+    text-transform: uppercase;
+}

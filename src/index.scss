@@ -1,0 +1,24 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 20px;
+  color: #111;
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

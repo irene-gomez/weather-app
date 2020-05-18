@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './styles.scss';
 
-const WeatherExtraInfo = ({ humidity, wind }) => {
+const WeatherExtraInfo = ({ localDate}) => {
     return (
-        <p>{`${humidity} % humedad - ${wind} viento`}</p>
+        <p className='extraInfo'>{`${localDate}`}</p>
     )
 };
 

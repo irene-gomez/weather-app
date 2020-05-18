@@ -1,11 +1,12 @@
 import React from 'react';
-import Location from './Location';
-import WeatherData from './WeatherData'
+import Location from '../Location';
+import WeatherData from '../WeatherData';
+import './styles.scss'
 
-const WeatherLocation = props => (
-    <div>
+const WeatherLocation = ({ localDate }) => (
+    <div className='weatherLocation__wrapper'>
         <Location city={'Pamplona'}/>
-        <WeatherData />
+        <WeatherData localDate={localDate}/>
     </div>
 );
 
